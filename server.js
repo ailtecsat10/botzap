@@ -18,9 +18,9 @@ const ssh = new NodeSSH();
 
 require("dotenv").config();
 
-const ip_server = "209.14.68.172";
-const password = "ma101287";
-const valorP1 = "0.01";
+const ip_server = "45.140.193.204";
+const password = "abcd2020";
+const valorP1 = "15.00";
 const valorP2 = "28.00";
 const valorP3 = "42.00";
 
@@ -168,12 +168,12 @@ app.post("/webhook", express.json(), function (req, res) {
         break;
       default:
         console.log(`Desculpe, não temos mais disponível o plano ${plano}.`);
-     }
+    }
     var options = {
       sandbox: false,
-      client_id: "Client_Id_8470541eb931c257b444c4736c2b1229337f1dd2",
-      client_secret: "Client_Secret_a91897dbcffb9f94ee6463534d5e940b49930fba",
-      pix_cert: "pix/producao-400653-ssh30dias.p12",
+      client_id: "Client_Id_ada8971f55d0e9b46ffb055d9ba22b51e8ce3573",
+      client_secret: "Client_Secret_db17f575c78e6e9112d1bb408083d8f971cafd34",
+      pix_cert: "pix/producao-400629-topnet.p12",
     };
     let body = {
       calendario: {
@@ -186,7 +186,7 @@ app.post("/webhook", express.json(), function (req, res) {
       valor: {
         original: `${valorP}`,
       },
-      chave: "4ac2258f-615f-4236-a35f-9357fe333d6d",
+      chave: "aa49fa53-4ae7-4517-ba9f-dc747629381f",
     };
     var hoje = new Date();
     var datadehoje =
