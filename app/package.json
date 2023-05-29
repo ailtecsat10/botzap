@@ -1,0 +1,41 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "firebase-admin": "^5.13.1",
+    "firebase-functions": "^2.0.2",
+    "dialogflow": "^0.6.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "googleapis": "^27.0.0",
+    "axios": "^0.19.2",
+    "node-fetch": "^2.6.1",
+    "busca-cep": "^0.5.0",
+    "countapi-js": "^1.0.2",
+    "sync-fetch": "^0.3.1",
+    "request": "^2.88.2",
+    "node-ssh": "^12.0.4",
+    "dotenv": "^16.0.1",
+    "gn-api-sdk-node": "^2.0.8"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
